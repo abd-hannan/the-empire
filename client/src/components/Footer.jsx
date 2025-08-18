@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div>
             <h2 className='text-lg font-bold mb-4 underline'>
-                Our Courses
+              Unsere Kurse
             </h2>
             <ul className='grid grid-cols-2'>
                 <li><a href="" className='hover:text-orange-300 text-gray-300'>E-Commerce</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div>
             <h2 className='text-lg font-bold mb-4 underline'>
-                Quick Links
+                Schnellzugriffe
             </h2>
             <ul>
                 <li><a href="" className='hover:text-orange-300 text-gray-300'>Startseite</a></li>
