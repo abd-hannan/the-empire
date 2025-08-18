@@ -4,7 +4,7 @@ import assets from '../assets/assets'
 import Pricing from '../components/Pricing'
 import Footer from '../components/Footer'
 
-const SignUp = () => {
+const Subscription = () => {
   return (
     <div>
       <Navbar />
@@ -21,4 +21,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default Subscription

@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="mt-10 w-full flex justify-center">
         <div className="relative w-[100%] max-w-4xl aspect-video">
           <iframe
-            className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-lg"
+            className=" top-0 left-0 w-full h-full rounded-2xl shadow-lg"
             src="https://player.vimeo.com/video/902932460"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
