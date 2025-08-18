@@ -13,7 +13,7 @@ const Footer = () => {
                 About Us
             </h2>
             <p className='text-gray-600'>
-                This is an example text used for the footer and this is going to tell us how the text is looking in the footer component of our website.
+                Imagine you could get access to multi-millionaire mentors who will give you a step-by-step path to reach your goals as fast as possible...
             </p>
         </div>
         <div>
@@ -21,14 +21,14 @@ const Footer = () => {
                 Our Courses
             </h2>
             <ul className='grid grid-cols-2'>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>E-Commerce</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Copywriting</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Stocks</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Business & Finance</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Investing</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Trading</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Content Creation</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Fitness</a></li>
             </ul>
         </div>
         <div>

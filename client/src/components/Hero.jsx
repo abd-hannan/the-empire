@@ -22,8 +22,7 @@ const Hero = () => {
         <div className="relative w-[100%] max-w-4xl aspect-video">
           <iframe
             className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-lg"
-            src="https://www.youtube.com/embed/a58aMKKHSx4?modestbranding=1&showinfo=0&rel=0&controls=1"
-            title="YouTube video"
+            src="https://player.vimeo.com/video/902932460"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -39,7 +38,7 @@ const Hero = () => {
         <p className='text-xs font-medium'>Join 113,000+ like-minded students</p>
       </div>
       
-      <div className='mt-40'>
+      <div id='features' className='mt-40'>
         <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>INTRODUCING</h3>
         <h2 className='text-2xl sm:text-3xl md:text-4xl xl:text-[30px] font-medium xl:leading-[50px] max-w-3xl'>A MASSIVE UPGRADE</h2>
         <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>A modern education system is designed to make you poor.</h3>

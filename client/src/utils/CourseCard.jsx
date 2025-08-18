@@ -19,7 +19,7 @@ const CourseCard = (props) => {
                 </p>
             </div>
             <div>
-                <a href="LEARN MORE" className='hover:text-orange-300 transition'>LEARN MORE</a>
+                <a href={props.buttonLink ? props.ButtonLink : "#"} className='hover:text-orange-300 transition pointer-cursor'>LEARN MORE</a>
             </div>
             <div class="flex items-center p-6">
                 <p class="block font-sans text-[#ffa545] antialiased font-bold leading-relaxed">
