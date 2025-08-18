@@ -1,5 +1,6 @@
 import React from 'react'
 import assets from '../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -29,9 +30,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <a href="#" className='mt-10 px-10 py-4 text-black font-extrabold text-lg uppercase bg-[#ffa545] rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105'>
+      <Link to="/subscription" className='mt-10 px-10 py-4 text-black font-extrabold text-lg uppercase bg-[#ffa545] rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105'>
           JOIN THE REAL WORLD NOW
-          </a>
+          </Link>
       
       <div className='services inline-flex mt-5 items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full'>
         <img className='w-20' src={assets.group_profile} alt="" />

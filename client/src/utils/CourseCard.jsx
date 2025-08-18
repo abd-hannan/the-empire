@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CourseCard = (props) => {
   return (
@@ -19,7 +20,7 @@ const CourseCard = (props) => {
                 </p>
             </div>
             <div>
-                <a href={props.buttonLink ? props.ButtonLink : "#"} className='hover:text-orange-300 transition pointer-cursor'>LEARN MORE</a>
+                <Link to={props.buttonLink ? props.ButtonLink : "/coming-soon"} className='hover:text-orange-300 transition pointer-cursor'>LEARN MORE</Link>
             </div>
             <div class="flex items-center p-6">
                 <p class="block font-sans text-[#ffa545] antialiased font-bold leading-relaxed">

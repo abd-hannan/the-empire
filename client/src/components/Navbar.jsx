@@ -19,9 +19,9 @@ const Navbar = () => {
         <img src={assets.close_icon} alt="" className='w-5 absolute right-4 top-4 sm:hidden' onClick={() => setSideBarOpen(false)}/>
         
         <a href="#features" className="sm:hover:text-[#ffa545] font-extrabold">Features</a>
-        <a href="#" className="sm:hover:text-[#ffa545] font-extrabold">Interviews</a>
+        <Link to="coming-soon" className="sm:hover:text-[#ffa545] font-extrabold">Interviews</Link>
         <a href="#courses" className="sm:hover:text-[#ffa545] font-extrabold">Courses</a>
-        <a href="#" className="sm:hover:text-[#ffa545] font-extrabold">About Bajwa</a>
+        <Link to="/coming-soon" className="sm:hover:text-[#ffa545] font-extrabold">About Bajwa</Link>
         <Link to="/login" className='px-4 py-2 border border-orange-300 text-orange-300 rounded-md hover:bg-orange-300 hover:text-white sm:hidden transition'>
           Login
         </Link>
