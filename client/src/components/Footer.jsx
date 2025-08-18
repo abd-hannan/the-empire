@@ -1,0 +1,54 @@
+import React from 'react'
+import assets from '../assets/assets'
+
+const Footer = () => {
+  return (
+    <footer className='bg-gray-950 pt-4 md:pt-10 lg:pt-14 pr-4 md:pr-16 lg:pr-28 pl-4 md:pl-16 lg:pl-28 pb-4 md:pb-6 lg:pb-8 text-white'>
+      <div className='flex flex-col items-center pb-4 md:pb-6 lg:pb-8'>
+        <img src={assets.logo} alt="" className='w-20 md:w-20 lg:w-35'/>
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <div className=''>
+            <h2 className='text-lg font-bold mb-4 underline'>
+                About Us
+            </h2>
+            <p className='text-gray-600'>
+                This is an example text used for the footer and this is going to tell us how the text is looking in the footer component of our website.
+            </p>
+        </div>
+        <div>
+            <h2 className='text-lg font-bold mb-4 underline'>
+                Our Courses
+            </h2>
+            <ul className='grid grid-cols-2'>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Crypto Course</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 className='text-lg font-bold mb-4 underline'>
+                Quick Links
+            </h2>
+            <ul>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Home</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Interviews</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>About Joben</a></li>
+            </ul>
+            
+        </div>
+      </div>
+      <hr className='mt-8'/>
+      <div className='mt-2'>
+        <p>© 2025 The Empire. All rights reserved.</p>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
