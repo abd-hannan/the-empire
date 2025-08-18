@@ -12,33 +12,33 @@ const Pricing = () => {
         <img src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"  alt="" class="rounded-3xl w-20 h-20" />
         <div class="ml-5">
           <span class="block text-2xl font-semibold">EARN</span>
-          <span><span class="font-medium text-gray-500 text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold">49 </span></span><span class="text-gray-500 font-medium">/ month</span>
+          <span><span class="font-medium text-gray-500 text-xl align-top">CHF&thinsp;</span><span class="text-3xl font-bold">49 </span></span><span class="text-gray-500 font-medium">/ month</span>
         </div>
       </div>
       <ul class="mb-7 font-medium text-gray-500">
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Choose One Business Model</span>
+          <span class="ml-3">Wähle ein Geschäftsmodell</span>
         </li>
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Daily Live Broadcasts</span>
+          <span class="ml-3">Tägliche Live-Übertragungen</span>
         </li>
         <li class="flex text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Real-Time Course Updates</span>
+          <span class="ml-3">Echtzeit-Kursupdates</span>
         </li>
         <li class="flex text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">3 Connected Devices</span>
+          <span class="ml-3">3 verbundene Geräte</span>
         </li>
         <li class="flex text-lg">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Community Access</span>
+          <span class="ml-3">Zugang zur Community</span>
         </li>
       </ul>
       <a href="#/" class="flex justify-center items-center bg-orange-300 hover:bg-orange-400 rounded-2xl py-3 px-4 text-center text-white text-xl">
-        Pay with Card
+        Mit Karte bezahlen
         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
       </a>
     </div>
@@ -49,33 +49,33 @@ const Pricing = () => {
         <img src="https://res.cloudinary.com/williamsondesign/abstract-2.jpg"  alt="" class="rounded-3xl w-20 h-20" />
         <div class="ml-5">
           <span class="block text-3xl font-semibold text-white">CONQUER</span>
-          <span><span class="font-medium text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold text-white">99 </span></span><span class="font-medium">/ month</span>
+          <span><span class="font-medium text-xl align-top">CHF&thinsp;</span><span class="text-3xl font-bold text-white">99 </span></span><span class="font-medium">/ month</span>
         </div>
       </div>
       <ul class="mb-10 font-medium text-xl">
         <li class="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span class="ml-3">Everything in Prosper</span>
+          <span class="ml-3">Alles in Prosper</span>
         </li>
         <li class="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span class="ml-3">9+ Extra Business Model</span>
+          <span class="ml-3">9+ zusätzliche Geschäftsmodelle</span>
         </li>
         <li class="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span class="ml-3">VIP Account Ranking</span>
+          <span class="ml-3">VIP-Konto-Rang</span>
         </li>
         <li class="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span class="ml-3">7 Connected Devices</span>
+          <span class="ml-3">7 verbundene Geräte</span>
         </li>
         <li class="flex mb-6">
           <img src="https://res.cloudinary.com/williamsondesign/check-white.svg" />
-          <span class="ml-3">Early Access to New Content</span>
+          <span class="ml-3">Früher Zugang zu neuen Inhalten</span>
         </li>
       </ul>
       <a href="#/" class="flex justify-center items-center bg-orange-300 hover:bg-orange-400 rounded-2xl py-3 px-4 text-center text-white text-xl">
-        Pay with Card
+        Mit Karte bezahlen
         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
       </a>
     </div>
@@ -86,33 +86,33 @@ const Pricing = () => {
         <img src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"  alt="" class="rounded-3xl w-20 h-20" />
         <div class="ml-5">
           <span class="block text-2xl font-semibold">PROSPER</span>
-          <span><span class="font-medium text-gray-500 text-xl align-top">$&thinsp;</span><span class="text-3xl font-bold">69 </span></span><span class="text-gray-500 font-medium">/ month</span>
+          <span><span class="font-medium text-gray-500 text-xl align-top">CHF&thinsp;</span><span class="text-3xl font-bold">69 </span></span><span class="text-gray-500 font-medium">/ month</span>
         </div>
       </div>
       <ul class="mb-7 font-medium text-gray-500">
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Everything in Earn</span>
+          <span class="ml-3">Alles in Earn</span>
         </li>
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">1 Extra Business Model</span>
+          <span class="ml-3">1 zusätzliches Geschäftsmodell</span>
         </li>
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Priority Support</span>
+          <span class="ml-3">Priorisierter Support</span>
         </li>
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">5 Connected Devices</span>
+          <span class="ml-3">5 verbundene Geräte</span>
         </li>
         <li class="flex text-lg mb-2">
           <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-          <span class="ml-3">Exclusive Workshops</span>
+          <span class="ml-3">Exklusive Workshops</span>
         </li>
       </ul>
       <a href="#/" class="flex justify-center items-center bg-orange-300 hover:bg-orange-400 rounded-2xl py-3 px-4 text-center text-white text-xl">
-        Pay with Card
+        Mit Karte bezahlen
         <img src="https://res.cloudinary.com/williamsondesign/arrow-right.svg" class="ml-2" />
       </a>
     </div>

@@ -15,8 +15,8 @@ const Hero = () => {
         background: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.97) 50%, rgba(0,0,0,1) 100%)'
       }}></div>
       
-      <h1 className='text-4xl sm:text-5xl md:text-6xl xl:text-[54px] font-medium xl:leading-[75px] max-w-5xl'>MAKING MONEY IS <span className='bg-gradient-to-r from-[#b18b2f] to-[#d09848] bg-clip-text text-transparent'>A SKILL</span></h1>
-      <h2 className='text-2xl sm:text-3xl md:text-4xl xl:text-[30px] font-medium xl:leading-[50px] max-w-3xl'>We will teach you how to <span className='underline'>master it</span></h2>
+      <h1 className='text-4xl sm:text-5xl md:text-6xl xl:text-[54px] font-medium xl:leading-[75px] max-w-5xl'>Geld verdienen ist <span className='bg-gradient-to-r from-[#b18b2f] to-[#d09848] bg-clip-text text-transparent'>eine Fähigkeit</span></h1>
+      <h2 className='text-2xl sm:text-3xl md:text-4xl xl:text-[30px] font-medium xl:leading-[50px] max-w-3xl'>Wir bringen dir bei, wie du <span className='underline'>sie meisterst</span></h2>
       
       
       <div className="mt-10 w-full flex justify-center">
@@ -31,20 +31,20 @@ const Hero = () => {
       </div>
 
       <Link to="/subscription" className='mt-10 px-10 py-4 text-black font-extrabold text-lg uppercase bg-[#ffa545] rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105'>
-          JOIN THE REAL WORLD NOW
+          JETZT DER REALEN WELT BEITRETEN
           </Link>
       
       <div className='services inline-flex mt-5 items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full'>
         <img className='w-20' src={assets.group_profile} alt="" />
-        <p className='text-xs font-medium'>Join 113,000+ like-minded students</p>
+        <p className='text-xs font-medium'>Schließe dich über 113.000 gleichgesinnten Studenten an</p>
       </div>
       
       <div id='features' className='mt-40'>
-        <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>INTRODUCING</h3>
-        <h2 className='text-2xl sm:text-3xl md:text-4xl xl:text-[30px] font-medium xl:leading-[50px] max-w-3xl'>A MASSIVE UPGRADE</h2>
-        <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>A modern education system is designed to make you poor.</h3>
-        <h3 className='text-1xl mt-10 sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'><span className='font-extrabold text-white'>Imagine you could get access to multi-millionaire mentors</span> who will give you a step-by-step path to reach your goals as fast as possible...</h3>
-        <h3 className='text-1xl mt-10 sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>That's <span className='font-extrabold text-white'>exactly</span> what you find <span className='font-extrabold text-white'>inside THE REAL WORLD.</span></h3>
+        <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>VORSTELLUNG</h3>
+        <h2 className='text-2xl sm:text-3xl md:text-4xl xl:text-[30px] font-medium xl:leading-[50px] max-w-3xl'>EIN MASSIVES UPDATE</h2>
+        <h3 className='text-1xl sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>Ein modernes Bildungssystem ist darauf ausgelegt, dich arm zu machen.</h3>
+        <h3 className='text-1xl mt-10 sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'><span className='font-extrabold text-white'>Stell dir vor, du könntest Zugang zu Multi-Millionär-Mentoren bekommen</span> die dir einen Schritt-für-Schritt-Plan geben, um deine Ziele so schnell wie möglich zu erreichen…</h3>
+        <h3 className='text-1xl mt-10 sm:text-2xl md:text-3xl xl:text-[18px] font-medium xl:leading-[30px] max-w-2xl text-gray-500'>Genau das findest du <span className='font-extrabold text-white'>in THE EMPIRE.</span></h3>
       </div>
     </div>
     

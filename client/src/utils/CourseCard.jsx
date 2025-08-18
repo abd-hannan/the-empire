@@ -20,7 +20,7 @@ const CourseCard = (props) => {
                 </p>
             </div>
             <div>
-                <Link to={props.buttonLink ? props.ButtonLink : "/coming-soon"} className='hover:text-orange-300 transition pointer-cursor'>LEARN MORE</Link>
+                <Link to={props.buttonLink ? props.ButtonLink : "/coming-soon"} className='hover:text-orange-300 transition pointer-cursor'>MEHR ERFAHREN</Link>
             </div>
             <div class="flex items-center p-6">
                 <p class="block font-sans text-[#ffa545] antialiased font-bold leading-relaxed">

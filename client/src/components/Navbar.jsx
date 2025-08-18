@@ -20,13 +20,13 @@ const Navbar = () => {
         
         <a href="#features" className="sm:hover:text-[#ffa545] font-extrabold">Features</a>
         <Link to="coming-soon" className="sm:hover:text-[#ffa545] font-extrabold">Interviews</Link>
-        <a href="#courses" className="sm:hover:text-[#ffa545] font-extrabold">Courses</a>
-        <Link to="/coming-soon" className="sm:hover:text-[#ffa545] font-extrabold">About Bajwa</Link>
+        <a href="#courses" className="sm:hover:text-[#ffa545] font-extrabold">Kurse</a>
+        <Link to="/coming-soon" className="sm:hover:text-[#ffa545] font-extrabold">Über Bajwa</Link>
         <Link to="/login" className='px-4 py-2 border border-orange-300 text-orange-300 rounded-md hover:bg-orange-300 hover:text-white sm:hidden transition'>
-          Login
+          Anmelden
         </Link>
         <a href='#' className='px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-600 sm:hidden transition'>
-          Join Now
+          Jetzt beitreten
         </a>
       
       </div>
@@ -34,10 +34,10 @@ const Navbar = () => {
         
         <div className="flex items-center gap-2">
           <Link to="/login" className='px-4 py-2 border border-orange-300 text-orange-300 rounded-md hover:bg-[#cd873d] hover:border-[#cd873d] hover:text-white hidden sm:block transition'>
-          Login
+          Anmelden
           </Link>
           <Link to="/subscription" className='px-4 py-2 bg-[#ffa545] text-white rounded-md hover:bg-[#cd873d] hidden sm:block transition'>
-          Join Now
+          Jetzt beitreten
           </Link>
         </div>
         <img src={assets.menu_icon_dark} alt="" className='w-8 sm:hidden' onClick={() => setSideBarOpen(true)}/>

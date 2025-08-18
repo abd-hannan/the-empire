@@ -10,10 +10,10 @@ const Footer = () => {
       <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
         <div className=''>
             <h2 className='text-lg font-bold mb-4 underline'>
-                About Us
+                Über uns
             </h2>
             <p className='text-gray-600'>
-                Imagine you could get access to multi-millionaire mentors who will give you a step-by-step path to reach your goals as fast as possible...
+                Stell dir vor, du könntest Zugang zu Multi-Millionär-Mentoren bekommen, die dir einen Schritt-für-Schritt-Weg zeigen, um deine Ziele so schnell wie möglich zu erreichen…
             </p>
         </div>
         <div>
@@ -36,9 +36,9 @@ const Footer = () => {
                 Quick Links
             </h2>
             <ul>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>Home</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Startseite</a></li>
                 <li><a href="" className='hover:text-orange-300 text-gray-300'>Interviews</a></li>
-                <li><a href="" className='hover:text-orange-300 text-gray-300'>About Joben</a></li>
+                <li><a href="" className='hover:text-orange-300 text-gray-300'>Über Bajwa</a></li>
             </ul>
             
         </div>
