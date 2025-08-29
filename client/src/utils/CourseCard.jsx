@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const CourseCard = (props) => {
   return (
     <div>
-        <div class="flex-shrink-0 w-[37.5rem] flex flex-col overflow-hidden rounded-xl bg-black/10 backdrop-blur-2xl border border-white/20 text-white shadow-lg my-5">
+        <div class="flex-shrink-0 md:w-[37.5rem] w-[1005] flex flex-col overflow-hidden rounded-xl bg-black/10 backdrop-blur-2xl border border-white/20 text-white shadow-lg my-5">
             <div class="m-0 overflow-hidden rounded-t-xl">
-                <iframe className="w-[100%] h-100 object-cover"
+                <iframe className="w-[100%] h-100 sm:h-70 object-cover"
                     src={props.videoLink}
                     allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture"
                     allowFullScreen></iframe>
